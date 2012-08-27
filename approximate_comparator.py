@@ -1,6 +1,6 @@
 from insignificant_digit_cutter import cut_insignificant_digits_recursively
 
-def is_almost_equal(first, second, places):
+def is_almost_equal(first, second, places=7):
     '''returns True if first and second equal. 
     returns true if first and second aren't equal but have exactly the same
     structure and values except for a bunch of floats which are just almost

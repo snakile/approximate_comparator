@@ -6,15 +6,15 @@ It can approximate the equality of plain two floats but also for any compound/re
 
 The approximate comparator is useful in unit testing: If your application does computations with real numbers you might wish to avoid assertions such as:
 
-'''python
+```python
 self.assertEqual(result, 0.0129475327294387001)
-'''
+```
 
 and prefer a less rigid assertion, like:
 
-'''python
+```python
 assert_almost_equal(result, 0.0129)
-'''
+```
 
 Python unit testing framework provieds such functionality for floats, but what if you wish to test compound structrues that contain floats within them? As previously described, the approximate Comparator provides such a general function which works not only for floats but for any two Python objects.
 

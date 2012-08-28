@@ -1,5 +1,5 @@
 import unittest
-from approximate_comparator import *
+from approximate_comparator import is_almost_equal
 
 
 class Test(unittest.TestCase):

@@ -56,7 +56,7 @@ The following examples use the `is_almost_equal(first, second, places=7)` functi
 
 ```python
 >>> first = [12.1234, 21.00988, 7.4, 'hello', 42]
->>> second = [12.123456, 21.009, 7.40, 'hello', 42]
+... second = [12.123456, 21.009, 7.40, 'hello', 42]
 >>> is_almost_equal(first, second, places=3)
 6: True
 >>> is_almost_equal(first, second, places=2)

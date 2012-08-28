@@ -4,7 +4,7 @@ Approximate Comparator allows you to test the equality of Python structures with
 
 It can approximate the equality of plain two floats but also of any compound/recursive data structure: lists of floats, sets of floats, dictionaries of floats, tuples of floats, lists of tuples of floats, dictionaries that map tuples of floats to lists and sets of floats, etc. It's OK if the structures contain items other than floats: The tuples `(0.3333, "third")` and `(0.33, "third")`, for instance, are consider almost equal given a precision of 2 decimal digits.
 
-What is Approximate Comparator Good for
+What is it Good for
 ---------------------------------------
 **Approximate Comparator is useful in unit testing:** If your application performs computations involving real numbers you might wish to avoid assertions such as:
 

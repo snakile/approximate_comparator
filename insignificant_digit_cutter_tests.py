@@ -1,5 +1,5 @@
 import unittest
-from insignificant_digit_cutter import *
+from insignificant_digit_cutter import cut_insignificant_digits, cut_insignificant_digits_recursively
 
 
 class Test(unittest.TestCase):
